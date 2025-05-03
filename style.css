@@ -12,8 +12,8 @@
     justify-content: space-evenly;
 }
 .nav-logo{
-    height: 50px;
-    width: 100px;
+    height: 52px;
+    width: 116px;
 }
 .logo{
     background-image: url(amazon_logo.png);
@@ -50,12 +50,15 @@
  /* search box*/
  .nav-search{
     display: flex;
-    width: 620px;
+    width: 920px;
     height: 40px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     background-color: aqua;
     justify-content: space-evenly;
+ }
+ .nav-search:hover{
+    border: 2px solid #f8b358;
  }
 .search-select{
     background-color: #f3f3f3;
@@ -100,3 +103,56 @@
 }
 
 /* third box */
+
+.log-first{
+    font-size: 0.7rem;
+}
+.log-sec{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* forth box */
+
+.re-first{
+    font-size: 0.7rem;
+}
+.re-sec{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* cart box */
+.cart i {
+    font-size: 34px;
+}
+.cart{
+    font-size: 15px;
+    font-weight: 700 ;
+}
+
+
+/* for panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    display: flex;
+}
+.panel-op p{
+    display: inline;
+    margin: 15px;
+}
+.panel-op{
+    width: 70%;  
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
