@@ -9,6 +9,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .nav-logo{
     height: 50px;
@@ -78,6 +79,24 @@
     background-color: #f8b358;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    color: rgba(0, 0, 0, 0.753);
-
+    color: #0f1111
 }
+
+/* flag box */
+
+.flag{
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center  ;
+}
+.ame-flag{
+    background-color: aqua;
+    height: 16px;
+    width: 21px;
+    background-image: url(https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg);
+    background-size: cover;
+}
+
+/* third box */
