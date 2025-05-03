@@ -156,3 +156,31 @@
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+/* main body */
+
+
+.hero_img{
+    height: 600px;
+    /* width: 1500px; */
+    /* width: 100%; */
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 250px;
+}
+.hero-msg a{
+    color: rgb(7, 136, 187);
+}
