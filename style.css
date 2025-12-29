@@ -1,186 +1,305 @@
-*{
-    margin: 0px;
-    font-family:Arial ;
-    border: border-box;
+* {
+  margin: 0px;
+  font-family: Arial;
+  border: border-box;
 }
-.navbar{
-    height: 60px;
-    background-color: #0f1111;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.nav-logo{
-    height: 52px;
-    width: 116px;
+.navbar div:hover {
+  cursor: pointer;
 }
-.logo{
-    background-image: url(amazon_logo.png);
-    background-size:cover ;
-    height: 50px;
-    width: 100%;
+.nav-logo {
+  height: 52px;
+  width: 116px;
 }
-.border{
-    border-color: 1.5px solid transparent;
+.logo {
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
 }
-
-.border:hover{
-    border: 1.5px solid white !important;
-}
-
-        /* box 2 */
-
-.add-first{
-    color: #cccccc;
-    font-size: 12px;
-    margin-left: 15px;
-}
-.add-sec{
-    color: #ffffff;
-    font-size: 14px;
-    margin-left: 3px;
+.border {
+  border: 1.5px solid transparent;
 }
 
-.add-icon{
-    display: flex;
-    align-items: center;
- }
-
- /* search box*/
- .nav-search{
-    display: flex;
-    width: 920px;
-    height: 40px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    background-color: aqua;
-    justify-content: space-evenly;
- }
- .nav-search:hover{
-    border: 2px solid #f8b358;
- }
-.search-select{
-    background-color: #f3f3f3;
-    width: 50px;
-    text-align: center;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-    border: none;
-} 
-.search-input{
-    width: 100%;
-    font-size: 1rem;
-    border: none;
+.border:hover {
+  border: 1.5px solid white !important;
 }
-.search-icon{
-    width: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    background-color: #f8b358;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    color: #0f1111
+
+/* box 2 */
+
+.add-first {
+  color: #cccccc;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.add-sec {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* search box*/
+.nav-search {
+  display: flex;
+  width: 920px;
+  height: 40px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: aqua;
+  justify-content: space-evenly;
+}
+.nav-search:hover {
+  border: 2px solid #f8b358;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+}
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #f8b358;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #0f1111;
 }
 
 /* flag box */
 
-.flag{
-    display: flex;
-    width: 45px;
-    height: 45px;
-    justify-content: center;
-    align-items: center  ;
+.flag {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
 }
-.ame-flag{
-    background-color: aqua;
-    height: 16px;
-    width: 21px;
-    background-image: url(https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg);
-    background-size: cover;
+.ame-flag {
+  background-color: aqua;
+  height: 16px;
+  width: 21px;
+  background-image: url(https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg);
+  background-size: cover;
 }
 
 /* third box */
 
-.log-first{
-    font-size: 0.7rem;
+.log-first {
+  font-size: 0.7rem;
 }
-.log-sec{
-    font-size: 12px;
-    font-weight: 700;
+.log-sec {
+  font-size: 12px;
+  font-weight: 700;
 }
 
 /* forth box */
 
-.re-first{
-    font-size: 0.7rem;
+.re-first {
+  font-size: 0.7rem;
 }
-.re-sec{
-    font-size: 12px;
-    font-weight: 700;
+.re-sec {
+  font-size: 12px;
+  font-weight: 700;
 }
 
 /* cart box */
 .cart i {
-    font-size: 34px;
+  font-size: 34px;
 }
-.cart{
-    font-size: 15px;
-    font-weight: 700 ;
+.cart {
+  font-size: 15px;
+  font-weight: 700;
 }
-
 
 /* for panel */
-.panel{
-    height: 40px;
-    background-color: #222f3d;;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: space-evenly;
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.panel-all{
-    display: flex;
+.panel-all {
+  display: flex;
 }
-.panel-op p{
-    display: inline;
-    margin: 15px;
+.panel-op div{
+  display: inline;
+  margin: 15px;
 }
-.panel-op{
-    width: 70%;  
-    font-size: 0.85rem;
+.panel-op div :hover{
+  cursor: pointer;
 }
-.panel-deals{
-    font-size: 0.9rem;
-    font-weight: 700;
+.panel-op {
+  width: 70%;
+  font-size: 0.85rem;
+}
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 /* main body */
 
+.hero_img {
+  height: 300px;
+  /* height: 600px; */
+  /* width: 1500px; */
+  /* width: 100%; */
+  background-image: url(hero_image2.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero-msg {
+  background-color: white;
+  height: 40px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  /* margin-bottom: 100px */
+}
+.hero-msg a {
+  color: rgb(7, 136, 187);
+}
+.hero-msg a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
-.hero_img{
-    height: 600px;
-    /* width: 1500px; */
-    /* width: 100%; */
-    background-image: url(hero_image.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+/* shoping containers */
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+/* .game-acc{
+    width: 23%;
+    height: 400px;
+    background-color:white ;
+    display: inline;
 
 }
-.hero-msg{
-    background-color: white;
-    height: 40px;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    margin-bottom: 250px;
+.home-acc{
+    width: 23%;
+    height: 400px;
+    background-color:white ;
+    display: inline;
 }
-.hero-msg a{
-    color: rgb(7, 136, 187);
+.top-acc{
+    width: 23%;
+    height: 400px;
+    background-color:white ;
+    display: inline;
+}
+.fashion{
+    width: 23%;
+    height: 400px;
+    background-color:white ;
+    display: inline;
+} */
+
+.container2 div {
+  width: 23%;
+  max-height: 400px; /* optional: flexible minimum */
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* ensures content starts from the top */
+}
+
+.game-acc,
+.home-acc,
+.top-acc,
+.fashion {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px;
+  height: auto;
+  background-color: aqua;
+  border: 2px solid red; */
+  background-color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  /* width: 100%; */
+}
+
+.game-acc h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+
+.game-acc .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 20px;
+  justify-items: center;
+  align-items: start; /* aligns content at the top */
+}
+
+
+.game-acc .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+}
+
+.game-acc .item img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.game-acc .item p {
+  font-size: 14px;
+}
+
+.see-more {
+  display: block;
+  margin-top: 20px;
+  color: #007185;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.see-more:hover {
+  text-decoration: underline;
 }
